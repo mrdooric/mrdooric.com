@@ -1,0 +1,76 @@
+<!DOCTYPE html >
+<html>
+	<head>
+		<meta charset="utf-8"> 
+		<title>
+			Mrdooric.com
+		</title>
+
+
+		<style type="text/css">
+			form {
+				width: 600px;
+				margin: auto;
+				position : absolute;
+				z-index:10;
+				left: 200px;
+				top : 150px;
+			}
+
+			form h1,
+			form .login-box {
+				margin-left: 200px;
+				background-color :white;
+			}
+
+			.login-box {
+				border: 1px solid #CCC;
+				padding: 20px;
+				text-align: center;
+			}
+
+			.login-box button {
+				margin-top: 10px;
+			}
+
+			.login-box input,
+			.login-box button {
+				width: 150px;
+			}
+
+			#ddabong {
+				resize : both;
+				max-width : 300px;
+				position : absolute;
+				z-index:1;
+				left: 220px;
+				top : 50px;
+			}
+
+		</style>
+
+	</head>
+
+	<body>
+		<div class="ddabong_img" >
+			<img id="ddabong" src = 'ddabong.png' >
+		</div>
+		<form action="login_check.php"> 
+		 	<h1> MrDooriC.com </h1>
+		 
+		 	<div class="login-box" >
+	 			
+		 		<div class="field-container">
+					<input type="text" name="id">
+					<input type="password" name="password">
+		 		</div>
+		 		<button type="submit">로그인</button>
+		 	</div>
+		</form>
+		
+
+
+	</body>
+
+
+</html>
